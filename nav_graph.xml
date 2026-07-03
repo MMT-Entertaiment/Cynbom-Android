@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/accueil">
+
+    <fragment
+        android:id="@+id/accueil"
+        android:name="com.mmt.cynbom.ui.accueil.AccueilFragment"
+        android:label="Accueil" />
+
+    <fragment
+        android:id="@+id/recherche"
+        android:name="com.mmt.cynbom.ui.recherche.RechercheFragment"
+        android:label="Rechercher" />
+
+    <fragment
+        android:id="@+id/parametres"
+        android:name="com.mmt.cynbom.ui.parametres.ParametresFragment"
+        android:label="Paramètres" />
+
+</navigation>
